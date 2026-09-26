@@ -3,7 +3,7 @@ package com.searchengine.models;
 
 import java.util.Objects;
 
-public record Document<ID,T>(ID id, T content, String title) {
+public record Document<ID, T>(ID id, T content, String title) {
 
     //Personalized constructor for validation before creating a document
     public Document{

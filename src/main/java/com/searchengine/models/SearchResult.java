@@ -10,10 +10,9 @@ public record SearchResult<ID, T>(Document<ID, T> document, double score)
         Objects.requireNonNull(document);
     }
 
-
     @Override
     public int compareTo(SearchResult<ID, T> other) {
-        return Double.compare(this.score, other.score);
+        return Double.compare(other.score, this.score);
     }
 }
 
