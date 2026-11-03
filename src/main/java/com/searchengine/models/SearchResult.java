@@ -16,3 +16,4 @@ public record SearchResult<ID, T>(Document<ID, T> document, double score)
     }
 }
 
+
