@@ -18,3 +18,4 @@ public class WhiteSpaceTokenizer implements Tokenizer {
         return result;
     }
 }
+
