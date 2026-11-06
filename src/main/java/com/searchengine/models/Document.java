@@ -11,4 +11,6 @@ public record Document<ID, T>(ID id, T content, String title) {
         Objects.requireNonNull(title, "Document's title required");
         Objects.requireNonNull(content, "Fill the document's content");
     }
+
+
 }
